@@ -1,0 +1,25 @@
+.session{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.except{
+	display: block;
+	margin: 0px auto;
+	font-size: 14px;
+	text-overflow: ellipsis;
+	max-width: 300px;
+	overflow: hidden;
+}
+
+p:not(.except){
+	font-size: 16px;
+	text-align: justify;
+	padding:10px;
+	display: block;
+}
+
+.link{
+	color: #77f;
+	text-decoration: none;
+}
